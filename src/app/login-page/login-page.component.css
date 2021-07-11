@@ -1,0 +1,111 @@
+.login-image{
+    /* text-align: center; */
+}
+
+::placeholder{
+    font-size: 13px;
+    color: #3150a2;
+}
+
+.login-page{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.login-title{
+    font-size: 30px;
+    font-family: Canela,Times New Roman,Times,"serif";
+    color: #3150a2;
+    font-weight: 200;
+}
+
+.login-button{
+    display: block;
+    background-color: #3150a2;
+    color: #fff;
+    padding: 20px 15px;
+    position: relative;
+    z-index: 3;
+    font-family: GT Pressura,Helvetica,Arial,"sans-serif";
+    font-size: 13px;
+    font-weight: 200;   
+    opacity: 1;
+    text-transform: uppercase;
+    letter-spacing: .18em;   
+    text-align: center;
+    font-variant: tabular-nums;
+    font-feature-settings: "tnum";
+    line-height: 1.5715;
+    letter-spacing: .24em;
+    font-size: 12px;
+}
+
+.or-text{
+    margin-top: 15px;
+    color: #3150a2;
+}
+
+.create-button{
+    display: block;
+    background-color: #fff;
+    color: #3150a2;
+    border: 2px solid #3150a2;;
+    padding: 15px 15px;
+    margin-top: 10px;
+    font-family: GT Pressura,Helvetica,Arial,"sans-serif";
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: .24em;
+}
+
+#phoneInput{
+    border: none;
+    
+}
+
+#phoneInput:focus {
+    box-shadow: none;
+  }
+
+.input-group-text{
+    margin-top: 3px;
+    border: none;
+    background-color: #fff;
+    font-family: GT Walsheim Pro Regular,Helvetica,Arial,"sans-serif";
+
+}
+
+.input-group{
+    border-bottom: 2px solid #3150a2;
+}
+
+.otp-content {
+    margin: 30px;
+    
+}
+
+.otp-content input{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.otp-content label{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.otp-content button{
+    background-color:  #3150a2;
+    color: white;
+    border: none;
+}
+
+.login-page{
+    
+}
+
+.input-group input{
+    color:  #3150a2;
+    font-family: GT Walsheim Pro Regular,Helvetica,Arial,"sans-serif";
+}

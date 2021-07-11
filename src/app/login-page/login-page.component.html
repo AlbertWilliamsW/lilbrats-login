@@ -1,0 +1,40 @@
+<div class="login-page">
+    <div class="login-image">
+        <img style="width: 100px;
+        height: 100px;" src="../../assets/images/maisonette-sign-in.png">
+    </div>
+
+    <div class="login-title" style="margin-bottom: 1em;">Log In</div>
+
+    <div>
+        <div class="mb-3">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span style="font-size: 13px;color:#3150a2;" class="input-group-text" id="validatedInputGroupPrepend">+91</span>
+                </div>
+                <input id="phoneInput" [(ngModel)]="phoneNumber" type="text" class="form-control"
+                   placeholder="Enter Your Mobile Number" aria-describedby="validatedInputGroupPrepend" required>
+            </div>
+        </div>
+    </div>
+    <div id="recaptcha-container"></div>
+    <div style="cursor: pointer;" class="login-button" 
+        (click)="sendOTP()">LOGIN WITH OTP
+    </div>
+    
+    <div *ngIf="windowRef.confirmationResult" class="otp-content d-flex">
+        <label for="code">Enter your OTP here</label>
+        <input type="text" class="form-control" name="code" [(ngModel)]="verificationCode">
+        <button  (click)="verifyOTP()">Verify</button>
+    </div>
+    <div class="or-text">
+        or
+    </div>
+    <div style="cursor: pointer;" class="create-button" 
+        >CREATE NEW ACCOUNT
+    </div>
+    <!-- <div *ngIf="user">
+        you have successfully logged in with phone number
+        UserId:{{ user}}
+    </div> -->
+</div>

@@ -1,0 +1,79 @@
+
+::placeholder {
+    color: #3150a2;
+}
+
+.header-title{    
+    display: block;
+    background-color: #3150a2;
+    color: #fff;
+    padding: 20px 15px;
+    position: relative;
+    z-index: 3;
+    font-family: GT Pressura,Helvetica,Arial,"sans-serif";
+    font-size: 13px;
+    font-weight: 200;   
+    opacity: 1;
+    text-transform: uppercase;
+    letter-spacing: .18em;   
+    text-align: center;
+    font-variant: tabular-nums;
+    font-feature-settings: "tnum";
+    line-height: 1.5715;
+}
+
+.header-logo-image{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.input-group{
+    width: 40%;
+    margin: auto;
+}
+
+.input-group-text{
+    color: #fff;
+    background-color: #3150a2;
+    font-size: 12px;
+}
+
+.input-group input{
+    color: #3150a2;
+    box-shadow: none;
+}
+
+.search-input{   
+    padding: 5px;
+    font-size: 12px;
+    background-color: #fff;
+    border-color: #3150a2;
+    color: #3150a2;    
+}
+
+
+.navigation-tab-list{
+    list-style-type: none;
+    background-color: #3150a2;
+    padding: 15px;
+    color: #fff;
+    font-family: GT Walsheim Pro Regular,Helvetica,Arial,"sans-serif";
+    font-size: 14px;
+}
+
+.navigation-tab-list li{
+    margin: auto;
+    cursor: pointer;
+    letter-spacing: .24em;
+    font-size: 12px;
+    font-weight: 700!important;
+}
+
+.navigation-tab{
+    width: 80%;
+    margin: auto;
+}
+
+.login-image img{
+    
+}

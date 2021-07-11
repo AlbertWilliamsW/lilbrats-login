@@ -1,0 +1,172 @@
+.home-content{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 2600px;
+   
+}
+
+.carousel-caption,.shop-by-age-caption, .season-edits-title, .couture-title{
+    text-align: center;
+    background-color: white;
+    color: #3150a2;
+    font-size: 25px;
+    margin: auto;
+    margin-bottom: -200px;
+    width: 50%;
+    font-family: Canela,Times New Roman,"serif";
+}
+
+.home-content hr{
+    margin-top: 100px;
+    border-top: 1px solid #3150a2;
+    width: 110%;
+    margin-left: -50px;
+}
+
+.shop-by-age-caption{
+    font-size: 30px;
+}
+
+
+.shop-by-age-details div img{
+    margin-top: 200px;
+   
+    width: 100%;
+    height: 120px;
+    margin-bottom: 30px;
+
+}
+
+.shop-by-age{
+    margin-bottom: 100px;
+}
+
+.shop-by-age-details div p{
+    text-align: center;
+    color: #3150a2;
+    font-family: GT Pressura,Helvetica,Arial,"sans-serif";
+}
+
+.collections-content div #left-collection-img{
+    width: 455px;
+    max-width: 100%;
+    border-radius: 100%;
+    margin-top: 100px;
+}
+
+.collections-content div #right-collection-img{
+    width: 550px;
+    max-width: 100%;
+    margin-top: 50px;
+    height: 600px;
+}
+
+.lc-details{
+    text-align: center;
+    margin-top: 140px;
+    color: #3150a2;
+}
+
+.rc-details{
+    text-align: center;
+    margin-top: 50px;
+    color: #3150a2;
+}
+
+.lc-details-para1,.rc-details-para1{
+    font-size: 13px;
+    font-family: GT Walsheim Pro Regular,Helvetica,Arial,"sans-serif";
+}
+
+.lc-details-para2,.rc-details-para2,.sei-para1{
+    font-size: 25px;
+    font-family: Canela,Times New Roman,"serif";
+    color: #3150a2;
+}
+.lc-details-para3,.rc-details-para3,.sei-para2{
+    font-size: 14px;
+    font-family: Roboto,Helvetica Neue,sans-serif;
+    border-bottom: 2px solid #3150a2;
+    display: inline-block;
+    color: #3150a2;
+
+}
+
+.season-edits-title{
+    font-family: Canela,Times New Roman,Times,"serif";
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #3150a2;
+}
+
+.season-edits-images img{
+    width: 230px;
+    border-radius: 50%;
+    height: 250px;
+}
+
+.season-edits-content{
+    margin-top: 250px;
+}
+
+.season-edits-images{
+    margin-right: 20px;
+    text-align: center;
+}
+
+.couture-title{
+    font-size: 40px;
+}
+
+.couture-content{
+    margin-top: 50px;
+}
+
+.three-piece-suits img{
+    width: 180px;
+    height: 180px;
+
+}
+
+.tps-collection{
+    margin: auto;
+    margin-top: 280px;
+    width: 70%;
+    /* margin-left: 20px; */
+}
+
+.three-piece-suits{
+    margin-right: 80px;
+}
+
+.three-piece-suits div p{
+    text-align: center;
+    color: #3150a2;
+    font-size: 15px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.tps-price{
+    font-family: GT Pressura,Helvetica,Arial,"sans-serif";
+    font-size: 12px;
+    letter-spacing: .24em;
+    font-weight: lighter;
+}
+
+.tps-image-title{
+    font-family: Plantin,Times New Roman,Times,"serif";
+}
+
+.shop-by-age-details div, .collections-content div,
+.season-edits-images, .three-piece-suits{
+    cursor: pointer;
+}
+
+.fa-arrow-circle-right:before {
+    content: "\f0a9";
+    font-size: 30px;
+    font-weight: lighter;
+}

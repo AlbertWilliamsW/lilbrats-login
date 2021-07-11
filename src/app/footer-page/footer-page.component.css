@@ -1,0 +1,63 @@
+.footer-content{
+    
+    background-color: #3150a2;
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 200px;
+    color: #fff;
+}
+
+.customer-care-content,.company-content,.contact-content,.guarantee-details{
+    margin-top: 70px;
+    margin-right: 40px;
+    
+}
+.customer-care-details,.company-details{
+    margin-top: 70px;
+}
+
+.contact-details,.contact-offline-details{
+    margin-top: 35px;
+}
+
+.guarantee-details{
+    width: 25%;
+}
+
+.guarantee-details div img{
+    margin-right: 20px;
+}
+
+.contact-content{
+    padding: 10px;
+    padding-top: 0;
+    border: 1px solid white;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+}
+
+.copyright-links-inceptionLabs-details {
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: #fff;
+
+}
+
+.copyright-links-inceptionLabs-details div{
+    margin: auto;
+}
+
+.copyright-links-inceptionLabs-details .links-details{
+    margin-top: -70px;
+}
+
+.copyright-links-inceptionLabs-details .links-details img{
+    margin-right: 20px;
+}
+
+.footer-background{
+    /* margin-top: 2550px; */
+
+}
