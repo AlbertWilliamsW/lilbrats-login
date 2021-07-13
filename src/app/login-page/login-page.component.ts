@@ -25,7 +25,7 @@ export class LoginPageComponent implements OnInit {
   phoneNumber: string;
   verificationCode: string;
   user: any; 
-
+  error:string;
    firebaseConfig = {
     apiKey: "AIzaSyAzf7UaObV1aRz9GOubAXM_x_-Ku4OI9aY",
     authDomain: "example-login-ca270.firebaseapp.com",
@@ -42,6 +42,8 @@ export class LoginPageComponent implements OnInit {
 
   ngOnInit(): void {
     firebase.default.initializeApp(this.firebaseConfig);
+    console.log(this.windowRef.nativeWindow);
+    
     this.windowRef = this.windowServ.windowRef;
     this.windowRef.recaptchaVerifier = 
       new firebase.default.auth.RecaptchaVerifier('recaptcha-container',
@@ -68,8 +70,10 @@ export class LoginPageComponent implements OnInit {
         this.user = result.user;
         this.router.navigate(['/home']);
       })
-      .catch(error => console.log(error,"Incorrect code entered?"));
-      
+      .catch(error => {
+        this.error = "Incorrect code entered"
+        console.log(error,"Incorrect code entered?");
+      });      
   }
 
 }

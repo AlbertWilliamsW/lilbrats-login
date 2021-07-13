@@ -18,6 +18,7 @@
         </div>
     </div>
     <div id="recaptcha-container"></div>
+
     <div style="cursor: pointer;" class="login-button" 
         (click)="sendOTP()">LOGIN WITH OTP
     </div>
@@ -26,6 +27,9 @@
         <label for="code">Enter your OTP here</label>
         <input type="text" class="form-control" name="code" [(ngModel)]="verificationCode">
         <button  (click)="verifyOTP()">Verify</button>
+    </div>
+    <div *ngIf="error" style="color: red;">
+        <p>{{error}}</p>
     </div>
     <div class="or-text">
         or
