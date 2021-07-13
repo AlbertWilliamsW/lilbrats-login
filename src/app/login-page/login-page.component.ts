@@ -41,9 +41,7 @@ export class LoginPageComponent implements OnInit {
     private router: Router) { }
 
   ngOnInit(): void {
-    firebase.default.initializeApp(this.firebaseConfig);
-    console.log(this.windowRef.nativeWindow);
-    
+    firebase.default.initializeApp(this.firebaseConfig);    
     this.windowRef = this.windowServ.windowRef;
     this.windowRef.recaptchaVerifier = 
       new firebase.default.auth.RecaptchaVerifier('recaptcha-container',
